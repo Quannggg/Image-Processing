@@ -96,6 +96,9 @@ if __name__ == "__main__":
 
     # Display the flipped grayscale image
     display_image(img_gray_flipped, "Flipped Grayscale Image")
+    
+    #save the flipped grayscale image
+    save_image(img_gray_flipped, "images/lena_gray_flipped.jpg")
 
     # Rotate the grayscale image
     img_gray_rotated = rotate_image(img_gray, 45)
